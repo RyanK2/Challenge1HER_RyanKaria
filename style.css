@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #E9EEF0;
+    height: 100%;
+}
+
+img {
+	width: 70%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-size: 21pt;
+}
+
+h2 {
+	line-height: 1em;
+	font-size: 23pt;
+	font-weight: bold;
+}
+
+hr {
+	height: 3px;
+	background-color: #E9EEF0;
+}
+
+p {
+	font-size: 20pt;
+	display: inline-block;
+	line-height: 2em;
+	padding-left: 5px;
+}
+
+header {
+	background-color: #D7DADB;
+	padding-left: 30px;
+	text-align: center;
+	box-shadow: 0px 5px 15px grey;
+}
+
+canvas {
+	size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gridcontainer {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.statcontainer, .travelcontainer, .graphcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.travelcontainer {
+	margin-top: -20px;
+}
+
+.passengers, .speed, .duration, .gforce, .arrival, .earth {
+	width: 80%;
+	height: 120px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+
+.rations, .resources, .acceleration {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid #283848;
+	box-shadow: 0px 5px 10px #283848;
+}
+
+.rations {
+	margin-top: -10px;
+}
+
+.arrival, .earth {
+	height: auto;
+}
+
+.passengers {
+	background-color: #7DC900;
+	margin-top: 30px;
+}
+
+.speed {
+	background-color: #005288;
+}
+
+.duration {
+	background-color: #B224EF;
+} 
+
+.gforce {
+	background-color: #FC4349;
+	margin-bottom: -10px;
+}
+
+.earth > h2 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.arrival, .earth {
+	background-color: grey;
+}
+
+.arrival > h2 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
