@@ -1,3 +1,9 @@
+.rations, .resources, .acceleration {
+	width: 80%;
+	padding: 20px;
+}
+
+
 @media only screen and (min-width: 600px) {
 .gridcontainer {
 	display: grid;
@@ -33,12 +39,14 @@ header {
 
 .resources {
 	grid-area: resources;
-	margin-top: 0;	
+	margin-top: 5vw;
+	margin-bottom: 3vw;	
 }
 
 .acceleration {
 	grid-area: acceleration;
 	width: 97%;
+	padding: 20px;
 }
 
 div.statcontainer {
@@ -48,8 +56,8 @@ div.statcontainer {
 
 .rations, .resources {
 	width: 97%;
-	height: 100%;
-	padding-top: 30px;
+	height: 300px;
+	padding: 20px;
 }
 
 }
@@ -78,13 +86,12 @@ div.statcontainer {
 	.gridcontainer {
 	display: grid;
 	width: 90%;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 
 	grid-template-areas:
-	"stats"
-	"rations"
-	"resources"
-	"acceleration"
+	"stats			stats"
+	"rations		resources"
+	"acceleration	acceleration"
 }
 
 	.passengers, .duration, .speed, .gforce {
@@ -96,9 +103,18 @@ div.statcontainer {
 	margin-top: 20px;
 }
 
+.passengers {
+	margin-left: 0;
+}
+
+.gforce {
+	margin-right: 0;
+}
+
 p {
 	display: block;
 	padding-top: 10px;
+	padding-left: 0;
 }
 
 .fas {
@@ -106,7 +122,21 @@ p {
 }
 
 .resources, .rations {
-	height: 100%;
-	width: 100%;
+	width: 44.5vw;
+	height: 400px;
+	padding: 40px;
+	padding-top: 25px;
+	margin-bottom: 2vw;
+}
+
+.rations {
+	margin-right: 1vw;
+}
+
+.acceleration {
+	height: 600px;
+	margin-bottom: 5vw;
+	padding: 40px;
+	padding-top: 25px;
 }
 }
