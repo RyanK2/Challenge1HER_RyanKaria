@@ -62,7 +62,7 @@
     let barChart = new Chart(rationChart, {
       type:'bar', //bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
-       labels:['Vegetables', 'Chicken', 'Fruits', 'Rice'],
+       labels:['Vegetables', 'Meat', 'Fruits', 'Rice'],
        datasets:[{
          label:'Rations in kg',
        data:[14,30,23,29],
@@ -93,9 +93,17 @@
     },
      scales: {
         yAxes: [{
+          gridLines: {
+      display: false,
+    },
             ticks: {
                 beginAtZero: true
             }
+        }],
+         xAxes: [{
+           gridLines: {
+      display: false,
+    },
         }]
     }
   }
